@@ -1,0 +1,34 @@
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Elementos a comprar</th>
+        <th>Total de la compra</th>
+        <th>IVA</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody id="cuerpoTabla">
+    </tbody>
+  </table>  
+<!-- CODIGO NUEVO -->
+<br>
+<br>
+<div class="col-4">
+    <div class="row">
+      <div class="col">
+        Descuento:
+      </div>
+      <div class="col">
+        <input type="text" name="des" id="des"><br>
+      </div>
+    </div>
+</div>
+<button class="btn btn-info" onclick="descuento();">Aplicar descuento</button>
+<div id="menDescuento" hidden>
+<br>
+<br>
+<p> El nuevo valor con <span id="porDes"></span>% de descuento es <strong><span id="newTotal"></span></strong></p>
+</div>
+
+

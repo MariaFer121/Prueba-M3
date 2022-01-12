@@ -1,0 +1,53 @@
+<br>
+<button class="btn btn-dark" onclick="mostrarLista();">Mostrar Listado</button>
+<br><br>
+<!--<p id="tablaListado"></p> -->
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Indice</th>
+      <th>Nombre producto</th>
+      <th>Valor Unitario</th>
+      <th>Cantidad</th>
+    </tr>
+  </thead>
+  <tbody id="tablaListado">
+  </tbody>
+</table>
+<br>
+<br>
+<div class="col-4">
+    <div class="row">
+      <div class="col">
+        Producto a Modificar:
+      </div>
+      <div class="col">
+        <input type="text" name="nombMod" id="nombMod"><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        Cantidad a Modificar:
+      </div>
+      <div class="col">
+        <input type="text" name="cantMod" id="cantMod"><br>
+      </div>
+    </div>
+  </div>
+ 
+<button class="btn btn-secondary" onclick="modifica();">Aplicar Modificacion</button>
+<br>
+<br>
+
+<div class="col-4">
+    <div class="row">
+      <div class="col">
+        Producto a Eliminar : 
+      </div>
+      <div class="col">
+        <input type="text" name="elim" id="elim"><br>
+      </div>
+    </div>
+</div>
+<button class="btn btn-danger" onclick="eliminar();">Eliminacion</button>
